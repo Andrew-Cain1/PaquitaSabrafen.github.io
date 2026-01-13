@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="http://www.rorweb.com/ror.css" type="text/css"?>
+<!-- This is a ROR formatted XML document describing the resources of the website http://http://home.people.net.au/~paquita.sabrafen/. For information about the ROR format, go to www.rorweb.com --> 
+<rdf:RDF xmlns="http://rorweb.com/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 
+
+<!-- ******************** Main Info ******************** --> 
+<Resource rdf:about="main">
+    <rorinfo>This is a ROR formatted XML document describing the resources of the website http://http://home.people.net.au/~paquita.sabrafen/. For information about the ROR format, go to www.rorweb.com</rorinfo>
+    <type>Main</type>
+    <type>Website</type>
+    <title>Paquita Sabrafen</title>
+    <url>http://http://home.people.net.au/~paquita.sabrafen/</url>
+    <desc>A short biography and works of master artist Paquita Sabrafen.</desc>
+    <keywords>Paquita Sabrafen, Artist, Painting, Hermitage, Oil Painting, Portraits, Still Life, Abstract</keywords>
+</Resource>
+
+<!-- ******************** Contact Info ***************** --> 
+<Resource rdf:about="contact">
+    <type>Contact</type>
+    <title>Contact Info</title>
+    <name>Paquita Sabrafen</name>
+    <url>http://http://home.people.net.au/~paquita.sabrafen/</url>
+    <phone></phone>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="address">
+    <type>Address</type>
+    <title>Address</title>
+    <address1></address1>
+    <city></city>
+    <postalCode></postalCode>
+    <stateRegion></stateRegion>
+    <country></country>
+    <resourceOf rdf:resource="contact"/>
+</Resource>
+
+<!-- ******************** Site Map Info ***************** --> 
+<Resource rdf:about="sitemap">
+    <type>SiteMap</type>
+    <title>Sitemap Information</title>
+    <sitemapGoogle>http://home.people.net.au/~paquita.sabrafen/sitemap.xml</sitemapGoogle>
+    <sitemapROR>http://home.people.net.au/~paquita.sabrafen/ror1.xml</sitemapROR>
+    <sitemapYahoo></sitemapYahoo>
+    <resourceOf rdf:resource="main"/>
+</Resource>
+
+<Resource rdf:about="map-about">
+    <title>About</title>
+    <seeAlso rdf:resource="main"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+<Resource rdf:about="map-contact">
+    <title>Contact</title>
+    <seeAlso rdf:resource="contact"/>
+    <resourceOf rdf:resource="sitemap"/>
+</Resource>
+
+</rdf:RDF>
+
+
+
+
+
+
